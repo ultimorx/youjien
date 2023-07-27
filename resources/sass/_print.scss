@@ -1,0 +1,13 @@
+body#print {
+    padding-top: 0rem;
+    margin: 20px 20px;
+    min-width: 600px;
+}
+@media print {
+    header {
+        display: block;
+    }
+    .sheet{
+        page-break-before: always;
+    }
+}

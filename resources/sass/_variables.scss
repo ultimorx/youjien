@@ -1,0 +1,25 @@
+// bootstrapの同名の変数を上書き
+
+$table-border-width: 1px;
+$table-border-color: gray;
+
+$btn-size-base: 0.875rem;
+$btn-size-lg: $btn-size-base * 1.25 !default;
+$btn-size-sm: $btn-size-base * .875 !default;
+
+
+$input-btn-padding-y: .25rem !default;
+$input-btn-padding-x: .5rem !default;
+$input-btn-font-size: $btn-size-base !default;
+
+$input-btn-focus-width: .2rem !default;
+
+$input-btn-padding-y-sm: .125rem !default;
+$input-btn-padding-x-sm: .25rem !default;
+$input-btn-font-size-sm: $btn-size-sm !default;
+
+$input-btn-padding-y-lg: .375rem !default;
+$input-btn-padding-x-lg: .75rem !default;
+$input-btn-font-size-lg: $btn-size-lg !default;
+
+$grid-gutter-width: 0 !default;

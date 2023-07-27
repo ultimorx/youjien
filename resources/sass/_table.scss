@@ -1,0 +1,38 @@
+table.print em {
+    /* 縦書き */
+    writing-mode: vertical-rl;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode:vertical-rl;
+    font-style: normal;
+}
+table.print .dot_t {
+    border-top-style: dotted;
+}
+table.print .dot_b {
+    border-bottom-style: dotted;
+}
+table.print td.bold,
+table.print tr.bold td {
+    border-top-width: 3px;
+}
+table.print  {
+    border-width: 1px;
+    border-style: solid;
+}
+table.print td {
+    text-align: center;
+    border-width: 2px;
+    padding: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
+table.print .total {
+    color: #FF211C;
+    border-color: black;
+}
+table.print .none {
+    background: linear-gradient(to top right, transparent, transparent 49%, black 49%, black 51%, transparent 51%, transparent);
+}
+table.print .midashi .none {
+    background: linear-gradient(to top right, transparent, transparent 49%, black 49%, black 50%, transparent 50%, transparent);
+}
